@@ -3,25 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Francia 67</title>
+    <title>Francia 6769</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
             margin: 0;
+            padding: 0; 
+        }
+        
+        .navbar {
+            background-color: navy;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .navbar a:hover {
+            color: #EF4135; 
+        }
+
+        .contenido {
             padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
         }
         h1 {
-        color: navy;
+            color: navy;
             font-size: 50px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #EF4135;
+            border-bottom: 2px solid navy;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+        .seccion-datos {
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 15px;
         }
     </style>
 </head>
 <body>
-    <h1>Francia "Así es la vida"</h1>
-    <h1>¡Bienvenido a nuestro sitio web!</h1>
-    <p>Explora la belleza y la cultura de Francia a través de nuestras historias,
-    imágenes y experiencias únicas. Descubre los encantos de París, la Riviera Francesa, los castillos del Loira y mucho más.</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Torre Eiffel">
+
+    <div class="navbar">
+        <a href="#cultura">Cultura</a>
+        <a href="#sociedad">Sociedad</a>
+        <a href="#demografia">Demografía</a>
+        <a href="#politica">Política</a>
+        <a href="#economia">Economía</a>
+        <a href="#literatura">Literatura</a>
+    </div>
+
+    <div class="contenido">
+        <h1>Francia "Así es la vida"</h1>
+        <h3>¡Bienvenido a nuestro sitio web!</h3>
+        <p>Explora la belleza y la cultura de Francia a través de nuestras historias, imágenes y experiencias únicas. Descubre los encantos de París, la Riviera Francesa, los castillos del Loira y mucho más.</p>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Torre Eiffel">
+
+        <div id="cultura" class="seccion-datos">
+            <h2>Cultura</h2>
+            <p><strong>Gastronomía y Arte:</strong> Francia es famosa mundialmente por su alta cocina, sus quesos, sus vinos y por ser la cuna de movimientos artísticos clave como el Impresionismo. El Museo del Louvre en París es el más visitado del planeta.</p>
+        </div>
+
+        
+        <div id="sociedad" class="seccion-datos">
+            <h2>Sociedad</h2>
+            <p><strong>Estilo de vida:</strong> La sociedad francesa valora profundamente el equilibrio entre la vida laboral y personal. El concepto de "Liberté, Égalité, Fraternité" (Libertad, Igualdad, Fraternidad) define fuertemente sus valores ciudadanos fundamentales.</p>
+        </div>
+
+        
+        <div id="demografia" class="seccion-datos">
+            <h2>Demografía</h2>
+            <p><strong>Población y Territorio:</strong> Cuenta con una población aproximada de 68 millones de habitantes. Es uno de los países más extensos de Europa y la gran mayoría de su población se concentra en áreas urbanas, siendo París la metrópolis principal.</p>
+        </div>
+
+       
+        <div id="politica" class="seccion-datos">
+            <h2>Política</h2>
+            <p><strong>Gobierno:</strong> Francia es una república semipresidencialista. El poder se divide entre el Presidente (jefe de Estado) y el Primer Ministro (jefe de Gobierno), operando bajo la Constitución de la Quinta República.</p>
+        </div>
+
+       
+        <div id="economia" class="seccion-datos">
+            <h2>Economía</h2>
+            <p><strong>Industria y Comercio:</strong> Es una de las principales potencias económicas globales. Sus motores fundamentales son el turismo (es el país más visitado del mundo), la agricultura de precisión, la moda de alta costura, y la industria aeroespacial.</p>
+        </div>
+
+        
+        <div id="literatura" class="seccion-datos">
+            <h2>Literatura</h2>
+            <p><strong>Grandes Autores:</strong> Posee una tradición literaria gigantesca, siendo el país con más Premios Nobel de Literatura. Escritores históricos como Víctor Hugo (Los Miserables), Julio Verne y Antoine de Saint-Exupéry (El Principito) cambiaron la historia de las letras.</p>
+        </div>
+
+    </div>
+
 </body>
 </html>
